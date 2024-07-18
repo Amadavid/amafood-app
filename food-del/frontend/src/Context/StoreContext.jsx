@@ -4,6 +4,7 @@ export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
 
+    const url = "https://amafood-app.onrender.com/"
     const [cartItems,setCartItems] = useState({});
     const [ordersData,setOrdersData] = useState({});
     
